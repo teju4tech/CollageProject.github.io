@@ -1,0 +1,190 @@
+
+   body{
+       color: #fff;
+       margin: 0px;
+       padding: 0px;
+       background: url('abmam.jpg');
+       color: #fff;
+       font-family: 'Sofia', cursive;
+       background-image: linear-gradient( to left, rgb(243, 223, 43) 70%, #c3f5ff 20%);
+       
+   }
+   .left{
+         display: inline-block;
+         /* border: 2px solid red; */
+         position: absolute;
+         left: 0px;
+         top: 5px;
+
+   }
+
+   .left img{
+       width: 136px;
+       filter: invert(100%);
+   }
+   .left div{
+       text-align: center;
+       font-size: 18px;
+   }
+   .mid{
+     display: block;  
+     width: 49%;
+     margin: 0px auto;
+    /* border: 2px solid #Fff; */
+    border-radius: 10px;
+
+   }
+   .right{
+      position: absolute;  
+      display: inline-block;
+      right: 34px;
+      top: 5px;  
+      /* border: 2px solid yellow; */
+   }
+   .navbar{
+       display: inline-block;
+   }
+
+   .navbar li{
+       
+       display: inline-block;
+       font-size: 18px;
+   }
+
+   .navbar li a{
+         color: #fff;
+         text-decoration: none;
+         padding: 34px 10px;  
+   }
+   
+
+   .navbar li a:hover, .navbar li a.active{
+         text-decoration: underline;
+         text-decoration: underline;
+         color: rgb(224, 92, 92);
+           
+   }
+
+   .btn{
+       margin: 0px 9px ;
+       color: #ffff;
+       background-color: transparent;
+       padding: 4px 0px;
+       /* border: 2px solid green; */
+       border-radius: 10px;
+       font-size: 17px;
+       cursor: pointer;
+   }
+   .btn:hover{
+       background-color: rgb(243, 223, 43);
+       color: rgb(224, 92, 92);
+       border: 2px solid blue;
+   }
+
+   .cantainer{
+       border: 2px solid #fff;
+       margin: 70px 175px;
+       padding: 20px 20px;
+       width: 33%;
+       border-radius: 10px;
+   }
+   .form-group input{
+    text-align: center;
+    display: block;
+    width: 250px;
+    padding: 6px;
+    border: 2px solid black;
+    margin: 10px auto;
+    font-size: 18px;
+    border-radius: 10px;
+   }
+ 
+.cantainer h3{
+    text-align: center;
+}
+ 
+
+.cantainer button{
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+
+}
+.cantainer{
+
+    background-color: black;
+}
+
+/* ------------------------logo section ------------------------ */
+
+.logo{
+    width: 40%;
+    color: #fff;
+    background-image: linear-gradient(#f5de13 50%,#854fee 50%);
+    padding-left: 100px;
+    border-radius: 200px;
+    box-sizing: border-box;
+
+}
+.logo h1{
+ text-transform: capitalize;
+ font-size: 1.6rem;
+ animation: aagepiche 2s linear infinite ;
+ animation-direction: alternate;
+}
+@keyframes aagepiche{
+    from{ padding-left: 40px;
+         to { padding-right: 40px; }}
+        
+}
+/* ------------------------logo section ------------------------ */
+
+
+/*------------------------ nav section ------------------------ */
+.navsection{
+    width: 100%;
+    height: 20vh;
+    background:rgb(233 233 49);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient( to top, #fff 85%, #c3f5ff 20%);
+}
+
+nav{
+    width: 60%;
+    background-color:#fff;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #854fee;
+    font-weight: 900;
+    font-size: 17px;
+    position: relative;
+} 
+
+nav a:nth-child(2){
+    color: #f01af0;
+}
+
+nav a:before{
+    content:"" ;
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    border-bottom:2px solid #f01af0  ;
+    transition: all 0.4s linear;
+}
+
+nav a:hover::before{
+  width: 100%;
+}
+
+/*------------------------ nav section ------------------------ */
