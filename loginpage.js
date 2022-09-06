@@ -4,7 +4,7 @@ form.onsubmit = function(e) {
     e.preventDefault();
     if (form.user.value == "username" && form.pass.value == "lab2user") {
 
-        window.open("index.html");
+        window.open("index1.html");
     } else {
         alert("account doesn't exist")
         alert("Please Enter correct password")
