@@ -8,6 +8,9 @@ form.onsubmit = function(e) {
     } else {
         alert("account doesn't exist")
         alert("Please Enter correct password")
+        alert("If you face any problem ")
+        alert("click the blue button")
+        alert("Thank you")
     }
 
 }
