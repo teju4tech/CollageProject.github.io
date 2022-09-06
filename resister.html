@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login-page</title>
+    <link rel="stylesheet" href="resister.css">
+    <script src="resister.js"></script>
+
+</head>
+<body>
+    
+<!------------------------ nav section ---------------------- -->
+    <section class="navsection">
+        <div class="logo">
+            <h1>
+                Easy Education-HUB
+            </h1>
+        </div>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="#" onclick="dabba()">EDU-VIDEO</a>
+            <a href="#" onclick="dabba()" >ABOUT US</a>
+            <a href="#" onclick="dabba()">CONTACT US</a>
+        </nav>
+      </section>
+<!------------------------ nav section ---------------------- -->
+    <div class="cantainer">
+        <h3>WELCOME TO EDU-HUB</h3>
+        <form action="home.html"  method="post">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name" id="name" required >
+            </div>
+            <div class="form-group">
+                <input type="email" name="" placeholder="Enter your Mail Addrese"required>
+                
+            </div>
+            <div class="form-group">
+                <input type="tel" name="" placeholder="Enter your Handset no"required>
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality"required>
+            </div>
+            <button class="btn" name="" value="Login" type="submit" onclick="tab()" >Resister Now</button>
+        </form>
+    </div>
+
+    <script>
+         function tab()
+        {
+            alert("You have been successfully Resister  : ) ")
+            alert("Your username  = username & pass = lab2user ")
+            window.open("loginpage.html");
+        }
+       function dabba()
+       {
+           alert("Please resister first...")
+       }
+
+    </script>
+</body>
+</html>

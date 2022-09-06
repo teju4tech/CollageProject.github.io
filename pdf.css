@@ -1,0 +1,179 @@
+html {
+    height: 100%;
+  }
+  body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: linear-gradient(#141e30, #243b55);
+  }
+
+
+  
+  .container
+  {
+    width: 130vh;
+    height: 74vh;
+    margin-left: 30px;
+    margin-top: 100px;
+    border-radius: 10px;
+    background: linear-gradient(#5b7fc2, #35abbb);
+  }
+
+   h1
+  {
+      font-size: 27px;
+      margin-left: 150px;
+      border: none;
+      border-left:5px solid orangered ;
+      font-weight: 400;
+
+    
+}
+
+img
+{
+  width: 100vh;
+  height: 50vh;
+  margin-top: 25px;
+  margin-left: 90px;
+  border: none;
+  padding-right: 20px;
+  border-right:20px solid orangered ;
+  border-radius: 10px;
+
+}
+
+button a
+{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(121, 121, 209);
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(240, 243, 240);
+}
+
+button a:hover
+{
+    font-size: 25px;
+    background: rgb(48, 179, 219);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(236, 6, 6);
+}
+
+
+
+
+* ------------------------logo section ------------------------ */
+
+.logo{
+    width: 40%;
+    color: #fff;
+    font-family: 'Poppins' sans-serif;
+    background-image: linear-gradient(#f5de13 50%,#854fee 50%);
+    padding-left: 100px;
+    border-radius: 200px;
+    box-sizing: border-box;
+
+}
+.logo h1{
+ text-transform: capitalize;
+ font-size: 1.6rem;
+ font-family: 'Poppins' sans-serif;
+ animation: aagepiche 2s linear infinite ;
+ animation-direction: alternate;
+}
+@keyframes aagepiche{
+    from{ padding-left: 5px;
+         to { padding-right: 5px; }}
+        
+}
+/* ------------------------logo section ------------------------ */
+
+
+/*------------------------ nav section ------------------------ */
+.navsection{
+    width: 100%;
+    height: 20vh;
+    background:rgb(233 233 49);
+    display: flex;
+    margin-top: -25px;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient( to top, #fff 80%, #c3f5ff 20%);
+}
+
+nav{
+    width: 60%;
+    background-color:#fff;
+    font-family: 'Sofia', cursive;
+    display: flex;
+    margin-top: 0;
+    justify-content: space-around;
+    
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #854fee;
+    font-weight: 900;
+    font-size: 17px;
+    position: relative;
+} 
+
+nav a:nth-child(4){
+    /* color: #f01af0; */
+}
+
+nav a:before{
+    content:"" ;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    border-bottom:2px solid #f01af0  ;
+    transition: all 0.4s linear;
+}
+
+nav a:hover::before{
+  width: 100%;
+}
+
+/*------------------------ nav section ------------------------ */
+
+/*===------- title in the boook s ===------- */
+.title
+{
+    font-size: 25px;
+    font-family: 'Sofia', cursive;
+    text-transform: capitalize;
+    margin-top: 20px;
+    padding: 10px 10px;
+    cursor: pointer;
+    color: white;
+    border-radius: 52% 48% 83% 17% / 30% 65% 35% 70% ;
+    border: 2px solid #1a77f0;
+    background-color: #1a77f0;
+    display: inline-block;
+}
+
+.title:hover
+{
+    font-size: 25px;
+    font-family: 'Sofia', cursive;
+    text-transform: capitalize;
+    margin-top: 20px;
+    padding: 10px 10px;
+    cursor: pointer;
+    color: rgb(226, 71, 10);
+    border-radius: 52% 48% 83% 17% / 30% 65% 35% 70% ;
+    border: 2px solid #1a77f0;
+    background-color: white;
+    display: inline-block;
+}
+/*===------- title in the boook s ===------- */
